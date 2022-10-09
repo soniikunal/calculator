@@ -1,0 +1,46 @@
+body{
+    background-color: slategrey;
+}
+
+h1{
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-align: center;
+    color: skyblue;
+    padding: 10px 20px;
+    text-decoration-line: underline;
+}
+.container{
+    text-align: center;
+    width: 180px;
+    border: 2px solid orangered ;
+    padding: 23px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: black;
+    position: sticky;
+}
+#output{
+    text-align: right;
+    height: 32px;
+    border: 1px solid lightsalmon ;
+    border-radius: 2px;
+}
+
+input[type=button]{
+    padding: 14px 14px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: darkslategray;
+    color: snow;
+    font-size: large;
+
+
+}
+#clear{
+    width: 180px;
+    background-color: brown;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+}
